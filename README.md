@@ -13,13 +13,13 @@ index.js:
   
 ~function(window, undefined) {
 
-  // exports to global
+  
   umd("Lazyload", Lazyload);
 
   Lazyload.SENCER = 30;
   var noop = function() {};
 
-  // Lazyload Component
+ 
   function Lazyload(elements, opts) {
     var self = this;
 
@@ -28,7 +28,7 @@ index.js:
     this.callback = noop;
     this._pause = false;
 
-    // mixin
+    
     var opts = opts || {};
     for(var key in opts) {
       this[key] = opts[key];
@@ -40,7 +40,7 @@ index.js:
     }, 4);
   };
 
-  // init, bind event
+  
   Lazyload.prototype.init = function() {
     var self = this;
     self._detectElementIfInScreen();
@@ -58,7 +58,7 @@ index.js:
     });
   };
 
-  // detect if in screen
+  
   Lazyload.prototype._detectElementIfInScreen = function() {
 
     if(!this.elements.length) return;
@@ -95,7 +95,7 @@ index.js:
     return this;
   };
 
-  // lazyload img or script
+  
   Lazyload.prototype.loadItem = function(ele) {
     var imgs = ele.getElementsByTagName("img");
     for(var i = 0, len = imgs.length; i < len; i++) {
@@ -117,7 +117,7 @@ index.js:
     }
   };
 
-  // mini Query
+  
   function $(query) {
     var res = [];
     if (document.querySelectorAll) {
@@ -146,7 +146,7 @@ index.js:
         ? this.attachEvent('on' + evt, fn) : this['on' + evt] = fn;
   }
 
-  // UMD
+  
   function umd(name, component) {
     switch (true) {
       case typeof module === 'object' && !!module.exports:
