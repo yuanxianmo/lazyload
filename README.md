@@ -1,7 +1,7 @@
 /*********图片懒加载*********/
 html文件
 <div class="box">
-  <div class="item"><img src="" data-src="" alt="taobao"></div>
+  <div class="item"><img src="" data-src=""></div>
 </div>
 /********
   scr:初始化的图片路径，可以为空
