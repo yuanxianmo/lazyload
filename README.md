@@ -1,30 +1,30 @@
 /*********图片懒加载*********/
 html文件
 <div class="box">
-  <div class="item"><img src="s.gif" data-src="https://img.alicdn.com/tps/TB1rPrIKpXXXXbzaXXXXXXXXXXX-520-280.jpg_300x300.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="https://aecpm.alicdn.com/simba/img/TB1wQMxKXXXXXXLXpXXSutbFXXX.jpg_300x300.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="https://aecpm.alicdn.com/simba/img/TB1lewOKXXXXXb7XVXXSutbFXXX.jpg_300x300.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
   <div class="item">
     <textarea>
       log(4);
     </textarea>
   </div>
-  <div class="item"><img src="s.gif" data-src="https://aecpm.alicdn.com/simba/img/TB1y.bIKpXXXXXeaXXXSutbFXXX.jpg_300x300.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="https://img.alicdn.com/tps/TB1Xx_PKpXXXXcbXVXXXXXXXXXX-520-280.jpg_300x300.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
   <div class="item">
     <textarea>
       log(7);
     </textarea>
   </div>
-  <div class="item"><img src="s.gif" data-src="https://img.alicdn.com/tps/TB1rPrIKpXXXXbzaXXXXXXXXXXX-520-280.jpg_300x300.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="https://img.alicdn.com/tps/i1/TB15uKyKpXXXXaraXXXmxYvZVXX-320-180.jpg_300x300.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
   <div class="item">
     <textarea>
       log(10);
     </textarea>
   </div>
-  <div class="item"><img src="s.gif" data-src="https://img.alicdn.com/tps/TB1MZjjKpXXXXcaXVXXXXXXXXXX-320-180.png_300x300.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="https://img.alicdn.com/tps/i2/TB1pI7XKpXXXXbVXpXXmxYvZVXX-320-180.jpg_300x300.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
+  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
 </div>
 
 
