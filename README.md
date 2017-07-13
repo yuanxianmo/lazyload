@@ -1,32 +1,12 @@
 /*********图片懒加载*********/
 html文件
 <div class="box">
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
-  <div class="item">
-    <textarea>
-      log(4);
-    </textarea>
-  </div>
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
-  <div class="item">
-    <textarea>
-      log(7);
-    </textarea>
-  </div>
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
-  <div class="item">
-    <textarea>
-      log(10);
-    </textarea>
-  </div>
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
-  <div class="item"><img src="s.gif" data-src="xxx.jpg" alt="taobao"></div>
+  <div class="item"><img src="" data-src="" alt="taobao"></div>
 </div>
-
+/********
+  scr:初始化的图片路径，可以为空
+  data-src：懒加载的图片路径，引用了index.js会将data-src替换成src
+***********/
 
 <script src="inndex.js"></script>
 index.js:
